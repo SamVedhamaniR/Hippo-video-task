@@ -1,0 +1,361 @@
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.doodle {
+    animation: slideDown 0.5s ease-out; /* Add this line for animation */
+}
+.template {
+    height: 400px;
+    width: 700px;
+    margin-left: 48px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+// .grup {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-color: rgb(33 31 31 / 70%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 120px;
+    width: 650px;
+    position: absolute;
+    margin-top: -65px;
+}
+
+.play-pause-btn,
+.volume-btn,
+.fullscreen-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.seek-slider,
+.volume-slider {
+    -webkit-appearance: none;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.seek-slider::-webkit-slider-runnable-track,
+.volume-slider::-webkit-slider-runnable-track {
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.seek-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -2.5px;
+}
+
+.time {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.time span {
+    display: inline-block;
+    width: 39px;
+    text-align: left;
+}
+
+.btn-preview {
+    padding: 20px;
+    width: 125px;
+    // position: absolute;
+    background-color: black;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.alin {
+    margin-left: 100px;
+}
+.checker {
+    height: 20px;
+    width: 20px;
+    fill: #ffffff;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 36px;
+}
+
+.opt-btn {
+    border: 1px;
+    background-color: #ecf2f2;
+    padding: 20px;
+    width: 289px;
+    border-color: black;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    margin-right: 46px;
+}
+.block {
+    font-weight: 600;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -150px;
+}
+
+.master {
+    border: 1px;
+    background-color: #eff4f3;
+    margin-left: 100px;
+    width: 700px;
+    border-radius: 10px;
+    height: 185px;
+}
+.havo {
+    font-style: italic;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: #94949b;
+}
+.vaaga {
+    margin-left: 160px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.villay {
+    font-weight: 300;
+    font-size: small;
+    margin-top: -10px;
+    margin-left: 267px;
+}
+.new-year {
+    margin-left: 119px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.spcs {
+    height: 90px;
+    width: 85px;
+    /* position: absolute; */
+    margin-top: -63px;
+    margin-right: -366px;
+}
+.did {
+    display: flex;
+    justify-content: space-evenly;
+    width: 146px;
+    font-size: 12px;
+    margin-left: 120px;
+    /* position: absolute; */
+    margin-top: -6px;
+}
+.kum-icon {
+    margin-left: 688px;
+    position: absolute;
+    fill: #ffffff;
+    margin-top: 45px;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    background-color: #606060;
+    border-radius: 65px;
+}
+.paramom {
+    /* font-style: inherit; */
+    font-family: initial;
+    margin-top: 33px;
+    width: 600px;
+    font-size: larger;
+    margin-left: -71px;
+    color: #b3b3b9;
+    text-align: initial;
+}
+.fieldty {
+    width: 470px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #b5b5b4;
+}
+.tit {
+    margin-left: -70px;
+    margin-right: 26px;
+    margin-top: 13px;
+}
+.titag {
+    margin-left: -69px;
+    margin-right: 43px;
+    margin-top: 13px;
+}
+.plusminus {
+    background-color: #7bb0ff;
+    height: 15px;
+    padding: 6px;
+    border-radius: 31px;
+    width: 37px;
+    position: absolute;
+    margin-left: 69px;
+    margin-top: 5px;
+}
+.tester {
+    background-color: #d8dbda;
+    height: 19px;
+    padding: 4px;
+    width: 36px;
+    border-radius: 11px;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 6px;
+}
+.matty {
+    font-weight: 600;
+    padding: 20px;
+    background-color: #ecedee;
+    border-radius: 89px;
+    box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
+    border: 1px solid #d0cbcb;
+}
+.lastmodule {
+    padding: 17px;
+    background-color: #f0f2f1;
+    height: 247px;
+    border-radius: 11px;
+    margin-left: -70px;
+    width: 540px;
+}
+.griup {
+    padding: 10px;
+    background-color: #edf0ef;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: -70px;
+    width: 550px;
+}
+.textler {
+    margin-left: -162px;
+    margin-bottom: 15px;
+    color: #8f8c8c;
+    font: revert;
+    /* justify-content: left; */
+    text-align: left;
+    margin-left: 0px;
+}
+.img-holl {
+    background-color: #dbe0e0;
+    height: 20px;
+    padding: 1px;
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 14px;
+    margin-left: 58px;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .audio-player {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .audio-progress {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .time {
+        margin-top: 10px;
+    }
+
+    .alin {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .action-item {
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .opt-btn {
+        width: 100%;
+    }
+
+    .last-watched,
+    .edit-sales-page {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .watched-details,
+    .edit-sales-page > div {
+        width: 100%;
+    }
+
+    .stats > div {
+        width: 100%;
+    }
+
+    .settings {
+        flex-direction: column;
+    }
+
+    .settings-left,
+    .settings-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .audio-player {
+        padding: 5px;
+    }
+
+    .audio-icon {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .alin {
+        align-items: center;
+    }
+
+    .btn-preview {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .opt-btn {
+        font-size: 14px;
+    }
+}

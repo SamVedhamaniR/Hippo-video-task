@@ -1,0 +1,42 @@
+.app {
+    display: flex;
+
+    .content {
+        margin-left: 250px;
+        padding: 1rem;
+        flex: 1;
+    }
+}
+
+// Sidebar toggle button styles
+.sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    z-index: 1000;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0;
+    }
+
+    .sidebar {
+        transform: translateX(-100%);
+
+        &.active {
+            transform: translateX(0);
+        }
+    }
+}

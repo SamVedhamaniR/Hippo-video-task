@@ -1,0 +1,33 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #444;
+$text-color: #fff;
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Global Styles
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: $text-color;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Utility Classes
+.flex-center {
+    @include flex-center;
+}
